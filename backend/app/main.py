@@ -8,4 +8,4 @@ def get_day_of_week():
     """
     Get the current day of week
     """
-    return datetime.now().strftime("%A")
+    return {"day": datetime.now().strftime("%A")}
